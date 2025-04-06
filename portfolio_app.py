@@ -22,10 +22,10 @@ project_data = [
         "live website": "https://moodcompanion.onrender.com/chat"
     },
     {
-        "title": "NYC Trip Planner",
-        "description": "A full-stack web application that helps users plan custom NYC trips by selecting starting points, destinations, and time constraints. The app uses optimization algorithms to generate the shortest multi-day itinerary that minimizes commuting time and maximizes visit coverage.",
-        "tech": "JavaScript, Express, Python, Google Maps API",
-        "link": "https://github.com/Shurui-Liu/NYC-Trip-Planner-Web"
+    "title": "NYC Trip Planner",
+    "description": "A full-stack web application that helps users plan custom NYC trips by selecting starting points, destinations, and time constraints. The app uses optimization algorithms to generate the shortest multi-day itinerary that minimizes commuting time and maximizes visit coverage.",
+    "tech": "JavaScript, Express, Python, Google Maps API",
+    "link": "https://github.com/Shurui-Liu/NYC-Trip-Planner-Web"
     },
     {
         "title": "Grocery Store Inventory System",
