@@ -20,7 +20,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ---- HEADER ----
-profile_image = Image.open("your_profile_photo.jpg")  # Replace with your file path
+profile_image = Image.open("./profile_photo.jpg")
 
 col1, col2 = st.columns([3, 1])
 with col1:
