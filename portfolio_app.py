@@ -44,7 +44,7 @@ project_data = [
             "identify and reframe distorted thinking patterns."
         ),
         "tech": "React, MongoDB, OpenAI API",
-        "link": "https://moodcompanion.onrender.com/chat"
+        "link": "https://moodcompanion.onrender.com"
     },
     {
         "title": "NYC Trip Planner",
@@ -54,15 +54,6 @@ project_data = [
         ),
         "tech": "JavaScript, Express, Python, Google Maps API",
         "link": "https://github.com/Shurui-Liu/NYC-Trip-Planner-Web"
-    },
-    {
-        "title": "Grocery Store Inventory System",
-        "description": (
-            "An internal system for managing inventory and staff. "
-            "Built using Java, with SpringBoot backend and JSP frontend."
-        ),
-        "tech": "Java, SpringBoot, MySQL, JSP",
-        "link": "https://github.com/yourusername/grocery-inventory-system"
     }
 ]
 
@@ -70,7 +61,7 @@ for project in project_data:
     with st.container():
         cols = st.columns([1, 4])
         with cols[0]:
-            st.markdown("📌")
+            st.markdown(" ")
         with cols[1]:
             st.markdown(f"### [{project['title']}]({project['link']})")
             st.write(project["description"])
@@ -83,7 +74,7 @@ skills = [
     "SaaS", "MySQL", "API", "Git/GitHub"
 ]
 st.markdown("**Languages & Tools:**")
-st.markdown("✅ " + " | ✅ ".join(skills))
+st.markdown(" " + " |  ".join(skills))
 
 st.markdown("---")
 
